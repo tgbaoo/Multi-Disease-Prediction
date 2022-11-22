@@ -4,9 +4,9 @@ from streamlit_option_menu import option_menu
 
 # Loading saved model
 
-diabetes_model = pickle.load(open('./saved-model/diabetes-model.sav', 'rb'))
-heart_disease_model = pickle.load(open('./saved-model/heart-disease-model.sav', 'rb'))
-parkinsons_model = pickle.load(open('./saved-model/parkinsons-model.sav', 'rb'))
+diabetes_model = pickle.load(open('./diabetes-model.sav', 'rb'))
+heart_disease_model = pickle.load(open('./heart-disease-model.sav', 'rb'))
+parkinsons_model = pickle.load(open('./parkinsons-model.sav', 'rb'))
 
 # Sidebar for navigation
 with st.sidebar:
